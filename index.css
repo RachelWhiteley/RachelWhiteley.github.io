@@ -1,0 +1,68 @@
+/* header */
+
+/* .bio */
+
+/* This is a single-line comment */
+
+
+/* This is a single-line comment */
+body {
+    display: flex;
+    min-height: 100vh;
+    min-width: 100vh;
+    flex-direction: column;
+}
+
+h1, h2 {
+    Font-family: Copperplate, Copperplate Gothic Light, fantasy;
+    padding: 1em;
+}
+
+header {
+    display: flex;
+    background-color: #BC8DA7;
+    }
+
+nav {
+    display: flex;
+    background-color: #1D2E49;
+    
+}
+
+main {
+    display: flex;
+    background-color: #EFF1ED;
+     
+}
+ .bio {
+    display: flex;
+
+ }      
+.webdev {
+    display: flex;
+}
+
+.Spanish {
+    display: flex;
+}
+.question {
+    display: flex;
+}
+
+footer {
+    display: flex;
+}
+
+@media only screen and (min-width: 481px) {
+
+}
+
+
+@media only screen and (min-width: 769px) {
+
+}
+
+
+@media only screen and (min-width: 1025px) {
+
+}
