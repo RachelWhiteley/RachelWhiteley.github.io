@@ -1,11 +1,3 @@
-/* header */
-
-/* .bio */
-
-/* This is a single-line comment */
-
-
-/* This is a single-line comment */
 body {
     display: flex;
     min-height: 100vh;
@@ -13,56 +5,46 @@ body {
     flex-direction: column;
 }
 
-h1, h2 {
+h1,
+h2 {
     Font-family: Copperplate, Copperplate Gothic Light, fantasy;
     padding: 1em;
+    color: #2c3441;
 }
 
 header {
     display: flex;
-    background-color: #BC8DA7;
-    }
+    background-color: #6e6590;
+}
 
 nav {
     display: flex;
-    background-color: #1D2E49;
-    
+    background-color: #8395b4;
+
+}
+
+li {
+    color: #F7F7F9;
 }
 
 main {
     display: flex;
-    background-color: #EFF1ED;
-     
-}
- .bio {
-    display: flex;
-
- }      
-.webdev {
-    display: flex;
-}
-
-.Spanish {
-    display: flex;
-}
-.question {
-    display: flex;
-}
-
-footer {
-    display: flex;
-}
-
-@media only screen and (min-width: 481px) {
+    background-color: #F7F7F9;
 
 }
 
-
-@media only screen and (min-width: 769px) {
-
+.skill {
+    
 }
 
 
-@media only screen and (min-width: 1025px) {
 
-}
+
+
+@media only screen and (min-width: 481px) {}
+
+
+@media only screen and (min-width: 769px) {}
+
+
+@media only screen and (min-width: 1025px) {}
