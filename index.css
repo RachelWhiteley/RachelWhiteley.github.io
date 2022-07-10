@@ -1,9 +1,4 @@
-body {
-    display: flex;
-    min-height: 100vh;
-    min-width: 100vh;
-    flex-direction: column;
-}
+body {}
 
 h1,
 h2 {
@@ -15,12 +10,19 @@ h2 {
 header {
     display: flex;
     background-color: #6e6590;
+    width: 100%;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 nav {
     display: flex;
     background-color: #8395b4;
-
+    width: 100%;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 li {
@@ -30,12 +32,11 @@ li {
 main {
     display: flex;
     background-color: #F7F7F9;
-
+    width: 100%;
+    flex-wrap: wrap;
 }
 
-.skill {
-    
-}
+.skill {}
 
 
 
@@ -43,6 +44,9 @@ main {
 
 @media only screen and (min-width: 481px) {}
 
+nav {
+    flex-basis: 100%;
+}
 
 @media only screen and (min-width: 769px) {}
 
