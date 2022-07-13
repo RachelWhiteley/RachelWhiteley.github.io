@@ -1,16 +1,20 @@
-body {}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 h1,
 h2 {
-    Font-family: Copperplate, Copperplate Gothic Light, fantasy;
+    font-family: 'Parisienne', cursive;
     padding: 1em;
     color: #2c3441;
+    text-align: center;
 }
 
 header {
     display: flex;
-    background-color: #6e6590;
+    background-color: #7C72A0;
     width: 100%;
+    text-align: center;
     align-content: center;
     flex-wrap: wrap;
     justify-content: center;
@@ -36,11 +40,31 @@ a {
 main {
     display: flex;
     background-color: #F7F7F9;
-    width: 100%;
-    flex-wrap: wrap;
+    flex-direction: column;
 }
 
+
 .skill {}
+
+#biophoto {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    padding-top: 2em;
+}
+
+.responsiveimage {
+    max-width: 40%;
+    height: auto;
+    padding: 1em;
+}
+
+img {
+    border: 2em solid #a099b9;
+}
+
+
 
 
 
@@ -56,6 +80,23 @@ main {
     a {
         padding: 0.5rem 1.25rem;
     }
+
+    main {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .skill .bio {
+        width: 50%;
+    }
+
+    .responsiveimage {
+        max-width: 40%;
+        height: auto;
+        padding: 1em;
+    }
+
+
 }
 
 
