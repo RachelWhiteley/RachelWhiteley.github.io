@@ -84,14 +84,7 @@ img {
         padding: 0.5rem 1.25rem;
     }
 
-    main {
-        flex-direction: row;
-        flex-wrap: wrap;
-
-    }
-
     section {
-
         padding: 0 2%;
     }
 
@@ -120,6 +113,15 @@ img {
         font-size: 2rem;
     }
 
+    main {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    section {
+        width: 42%;
+        padding: 0 4%;
+    }
 
     a {
         padding: 0.5rem 1.5rem;
